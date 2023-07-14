@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 390px;
+    /* height: 844px; */
+
+}
+
+.container {
+    display: flex;
+    margin-top: 61px;
+    width: 390px;
+}
+
+.btn_back {
+    margin-left: 27px;
+    margin-right: 104.58px;
+    margin-top: 6px;
+    width: 6.422px;
+    height: 12.844px;
+    flex-shrink: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+.title {
+    align-items: center;
+    justify-content: center;
+    color: #202821;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 140px;
+    height: 25px;
+
+}
+
+.account {
+    display: flex;
+    margin-top: 55.16px;
+    align-items: center;
+    width: 390px;
+}
+
+.account_img {
+    width: 33px;
+    height: 33px;
+    margin-left: 27px;
+}
+
+.account_info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 13px;
+}
+
+.account_nickname {
+    align-self: flex-start;
+    color: var(--black, #202821);
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.account_id {
+    align-self: flex-start;
+    color: #717579;
+    font-family: Pretendard;
+    font-size: 12.218px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.review_rating {
+    margin-top: 20.5px;
+    display: flex;
+    align-items: center;
+    width: 390px;
+}
+
+.red_star {
+    margin-left: 27px;
+    width: 18px;
+    height: 18px;
+}
+
+.overall_rating {
+    margin-left: 4px;
+    color: var(--black, #202821);
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 2px;
+}
+
+.full_rating {
+    color: #717579;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 2px;
+}
+
+.rating_date {
+    margin-left: 16.5px;
+    color: #717579;
+    font-family: Pretendard;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 2px;
+}
+
+.user_comment {
+    color: var(--black, #202821);
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 336px;
+    margin-top: 16px;
+}
+
+
+.blank_space {
+    border-bottom: 0.05px solid #DADCE0; 
+    width: 390px;
+    height: 22px;
+}
+
+.category {
+    margin-top: 22px;
+    margin-left: 27px;
+    width: 390px;
+}
+
+.streetlight_grade {
+    display: flex;
+}
+
+
+.streetlight_star {
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+
+.streetlight_rating {
+    color: var(--black, #202821);
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 12px;
+    margin-left: 2px;
+}
+
+.streetlight_full_rating {
+    color: #717579;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 12px;
+}
+
+.crowd_grade {
+    display: flex;
+    margin-top: 12.5px;
+}
+
+.crowd_star {
+    margin-left: 5px;
+    margin-top: 13px;
+    width: 18px;
+    height: 18px;
+}
+
+.crowd_rating {
+    color: var(--black, #202821);
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 13px;
+    margin-left: 2px;
+}
+
+.crowd_full_rating {
+    color: #717579;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 13px;
+}
+
+.clean_grade {
+    display: flex;
+    margin-top: 12.5px;
+}
+
+.clean_star {
+    margin-left: 5px;
+    margin-top: 13px;
+    width: 18px;
+    height: 18px;
+}
+
+.clean_rating {
+    color: var(--black, #202821);
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 13px;
+    margin-left: 2px;
+}
+
+.clean_full_rating {
+    color: #717579;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 13px;
+}
+
+.recommended {
+    display: flex;
+    margin-top: 15px;
+}
+
+.user_recommend{
+    margin-right: 6px;
+}

@@ -32,4 +32,9 @@ urlpatterns = [
     path('street_safety/', views.street_safety, name="street_safety"),
     path('detail_review/<int:id>/', views.detail_review, name="detail_review"),
     path('accounts/', include('accounts.urls', namespace='accounts')),
+    # path('detail_c', views.detail_c, name = 'detail_c'),
+    path('select_a/<int:id>', views.select_a, name = 'select_a'),
+    path('select_c/<int:id>', views.select_c, name= 'select_c'),
+    path('select_h/<int:id>', views.select_h, name= 'select_h'),
+
 ]
